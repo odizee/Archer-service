@@ -1,4 +1,15 @@
 /* Home Section */
+@font-face {
+  font-family: 'Cotham Sans';
+  src: url('../Cotham-master/CothamSans.otf');
+}
+
+*, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Cotham Sans';
+  font-weight: normal;
+}
 
 #our-team-section {
   display: flex;
@@ -28,15 +39,6 @@
   font-weight: 600;
 }
 
-@font-face {
-  font-family: "Cotham Sans";
-  src: url("../Cotham-master/CothamSans.otf");
-}
-
-body {
-  font-family: "Cotham Sans";
-  font-weight: normal;
-}
 .staff {
   font-weight: bold;
   font-size: 1.2rem;
@@ -54,14 +56,6 @@ body {
 p {
   line-height: var(--main-Line-Height);
   color: var(--main-color);
-}
-
-*,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
 }
 
 nav {
