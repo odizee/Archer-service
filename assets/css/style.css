@@ -60,14 +60,12 @@ nav {
 #video-play {
     width: 100%;
     height: 80vh;
-    background: url('https://via.placeholder.com/728x90') center/cover no-repeat;
 }
 
-.overlay {
+
+iframe {
     width: 100%;
     height: 100%;
-    background: rgba(45, 30, 47, 0.31);
-    position: relative;
 }
 
 .play-btn {
